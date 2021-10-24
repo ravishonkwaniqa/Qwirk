@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Qwirk-websites-test">
+    <listeners>
+		<listener class-name="xyz.qwirk.utilities.Reporting" />
+    </listeners>
+
+
+	<test name="Qwirk-Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			
+			<class name="xyz.qwirk.testCases.Verify_JointAsClient" />
+			
+           
+		</classes>
+	</test>
+</suite>
