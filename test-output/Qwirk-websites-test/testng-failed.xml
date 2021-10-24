@@ -15,6 +15,13 @@
           <include name="teardown"/>
         </methods>
       </class> <!-- xyz.qwirk.testCases.Verify_JointAsClient -->
+      <class name="xyz.qwirk.testCases.verify_JointASAFreelancer">
+        <methods>
+          <include name="jointAsAClient_Form"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- xyz.qwirk.testCases.verify_JointASAFreelancer -->
     </classes>
   </test> <!-- Qwirk-Test(failed) -->
 </suite> <!-- Failed suite [Qwirk-websites-test] -->

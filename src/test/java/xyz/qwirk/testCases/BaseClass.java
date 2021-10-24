@@ -51,7 +51,7 @@ public class BaseClass {
 	
 	public void setup(String br, ITestContext iTestContext) throws Exception {
 
-		Log = Logger.getLogger("Round&Read");
+		Log = Logger.getLogger("Qwirk");
 		PropertyConfigurator.configure("log4j.properties");
 
 		if(br.equals("chrome")) {
